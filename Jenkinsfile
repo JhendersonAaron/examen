@@ -10,7 +10,7 @@ pipeline {
         stage('Clone') {
             steps {
                 timeout(time: 2, unit: 'MINUTES'){
-                    git branch: 'main', credentialsId: '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', url: 'https://github.com/JhendersonAaron/test.git'
+                    git branch: 'main', credentialsId: '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', url: 'https://github.com/JhendersonAaron/examen.git'
                 }
             }
         }
